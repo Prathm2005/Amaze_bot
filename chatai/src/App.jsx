@@ -1,12 +1,13 @@
 import React from 'react'
 import Sidebar from './components/Sidebar/Sidebar'
 import Main from './components/main/Main'
+import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react'
 
-const App = () => {
+function App() {
   return (
     <>
     <Sidebar/>
-    <Main/>
+    <Main/> 
     </>
   )
 }
